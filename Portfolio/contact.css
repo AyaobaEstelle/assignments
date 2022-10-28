@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+
+.heading {
+    height: 40vh;
+    width: 100%;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+   
+}
+
+.name {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+.name span {
+    color: crimson;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2rem 3rem;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: crimson;
+    transition: all .5s;
+}
+
+.button-one {
+    background-color: crimson;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all .5s;
+}
+.button-one:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid crimson;
+}
+
+
+section {
+   background-color: #191919;
+}
+
+.contact {
+    background: #101010;
+    height: 300px;
+    width: 100%;
+    min-height: 80vh;
+    padding: 7rem 5rem;
+}
+
+
+.contact-form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+span {
+    color: crimson;
+    margin: 8px;
+}
+
+.con {
+    margin: 25px auto;
+    color: #fff;
+    border: 1px solid #fff;
+    max-width: 95px;
+    
+}
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    max-width: 600px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contact-form form {
+    position: relative;
+}
+.contact-form .input, form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border-bottom: 10px;
+    cursor: pointer;
+
+}
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+.button {
+    background-color: crimson;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all .5s;
+    margin: 13px;
+}
+.button:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid crimson;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    letter-spacing: 1px ;
+}
+.socials {
+   display: flex;
+   justify-content: space-between;
+}
+.socials a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.socials a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+    background-color: transparent;
+    border: 1px solid crimson;
+}
+footer p {
+    position: absolute;
+    color: crimson;
+    bottom: 35px;
+    font-size: 15px;
+}
+footer p span {
+    color: whitesmoke;
+
+}
+footer p:hover {
+    cursor: pointer;
+}
